@@ -21,7 +21,7 @@ jobs:
           filename: metrics/metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📅 Isometric commit calendar - Half-year calendar
@@ -31,7 +31,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📅 Isometric commit calendar - Full-year calendar
@@ -42,7 +42,7 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🈷️ Languages activity - Most used
@@ -55,7 +55,7 @@ jobs:
           plugin_languages_ignored: >-
             css, tex, less, makefile, qmake, lex, cmake, gnuplot
           # plugin_languages_limit: 4
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🈷️ Languages activity - Most used (with details)
@@ -69,7 +69,7 @@ jobs:
             css, tex, less, makefile, qmake, lex, cmake, gnuplot
           plugin_languages_details: bytes-size, percentage
           # plugin_languages_limit: 4
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🈷️ Languages activity - Recently used
@@ -84,7 +84,7 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_details: bytes-size, percentage
           # plugin_languages_limit: 4
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🈷️ Languages activity - Indepth analysis
@@ -100,7 +100,7 @@ jobs:
           plugin_languages_details: lines, bytes-size
           # plugin_languages_limit: 4
           plugin_languages_analysis_timeout: 15
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: ✨ Stargazers - Using classic charts
@@ -110,7 +110,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stargazers: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: ✨ Stargazers - Using graph charts
@@ -121,7 +121,7 @@ jobs:
           base: ""
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 👨‍💻 Lines of code changed - Compact display in base plugin
@@ -131,7 +131,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           plugin_lines: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 👨‍💻 Lines of code changed - Repositories and diff history
@@ -147,7 +147,7 @@ jobs:
           repositories_skipped: |
             @use.patterns
             */*
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📌 Starred topics - Labels
@@ -158,7 +158,7 @@ jobs:
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 12
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📌 Starred topics - Icons
@@ -170,7 +170,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🌟 Recently starred repositories - Recently starred
@@ -181,7 +181,7 @@ jobs:
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 3
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 💡 Coding habits and activity - Mildly interesting facts
@@ -194,7 +194,7 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: no
           config_timezone: America/Los_Angeles
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 💡 Coding habits and activity - Recent activity charts
@@ -207,7 +207,7 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           config_timezone: America/Los_Angeles
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎟️ Follow-up of issues and pull requests - Opened on user's repositories
@@ -217,7 +217,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_followup: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎟️ Follow-up of issues and pull requests - Opened by user
@@ -228,7 +228,7 @@ jobs:
           base: ""
           plugin_followup: yes
           plugin_followup_sections: user
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎟️ Follow-up of issues and pull requests - Indepth analysis
@@ -239,7 +239,7 @@ jobs:
           base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎭 Comment reactions - Comment reactions
@@ -251,7 +251,7 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_limit: 100
           plugin_reactions_details: percentage
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🧑‍🤝‍🧑 People - Followers
@@ -262,7 +262,7 @@ jobs:
           base: ""
           plugin_people: yes
           plugin_people_types: followers
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       # - name: 🧑‍🤝‍🧑 People - Contributors and sponsors
@@ -276,7 +276,7 @@ jobs:
       #     plugin_people: yes
       #     plugin_people_types: contributors, stargazers, watchers, sponsors
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       - name: 📓 Featured repositories - Featured repositories
@@ -287,7 +287,7 @@ jobs:
           base: ""
           plugin_repositories: yes
           plugin_repositories_featured: lowlighter/metrics
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📓 Featured repositories - Pinned repositories
@@ -298,7 +298,7 @@ jobs:
           base: ""
           plugin_repositories: yes
           plugin_repositories_pinned: 2
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 💫 Star lists - Featured star list
@@ -310,7 +310,7 @@ jobs:
           plugin_starlists: yes
           plugin_starlists_limit_repositories: 2
           plugin_starlists_only: TC39
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 💫 Star lists - Featured star list languages
@@ -324,7 +324,7 @@ jobs:
           plugin_starlists_limit_languages: 8
           plugin_starlists_limit_repositories: 0
           plugin_starlists_only: Awesome
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📆 Commit calendar - Current year calendar
@@ -334,7 +334,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_calendar: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📆 Commit calendar - Full history calendar
@@ -345,7 +345,7 @@ jobs:
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🏆 Achievements - Detailed display
@@ -356,7 +356,7 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: sponsor, maintainer, octonaut
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🏆 Achievements - Compact display
@@ -371,7 +371,7 @@ jobs:
             scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎩 Notable contributions - Contributions
@@ -381,7 +381,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎩 Notable contributions - Indepth analysis
@@ -393,7 +393,7 @@ jobs:
           plugin_notable: yes
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📰 Recent activity - Recent activity
@@ -406,7 +406,7 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🧮 Repositories traffic - Repositories traffic
@@ -416,7 +416,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
           base: repositories
           plugin_traffic: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: ♐ Random code snippet - JavaScript or TypeScript snippet of the day
@@ -428,7 +428,7 @@ jobs:
           plugin_code: yes
           plugin_code_languages: javascript, typescript
           plugin_code_load: 400
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🎫 Gists - Gists
@@ -438,7 +438,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_gists: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🗂️ GitHub projects - Project from a repository
@@ -450,7 +450,7 @@ jobs:
           plugin_projects: yes
           plugin_projects_repositories: lowlighter/metrics/projects/1
           plugin_projects_descriptions: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       # - name: 🙋 Introduction - Organization introduction
@@ -476,7 +476,7 @@ jobs:
       #     base: header
       #     plugin_introduction: yes
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       - name: 🌇 GitHub Skyline - GitHub Skyline
@@ -489,7 +489,7 @@ jobs:
           plugin_skyline_year: 2020
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🌇 GitHub Skyline - GitHub City
@@ -509,7 +509,7 @@ jobs:
               "wait": 4,
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       # - name: ⏱️ Google PageSpeed - Succinct report
@@ -523,7 +523,7 @@ jobs:
       #     plugin_pagespeed_url: https://lecoq.io
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: ⏱️ Google PageSpeed - Detailed report
@@ -538,7 +538,7 @@ jobs:
       #     plugin_pagespeed_url: https://lecoq.io
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: ⏱️ Google PageSpeed - Screenshot
@@ -553,7 +553,7 @@ jobs:
       #     plugin_pagespeed_url: https://lecoq.io
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🐤 Latest tweets - Latest tweets
@@ -566,7 +566,7 @@ jobs:
       #     plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
       #     plugin_tweets_user: Jesse_0x00
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🐤 Latest tweets - Latest tweets including attachments
@@ -581,7 +581,7 @@ jobs:
       #     plugin_tweets_user: Jesse_0x00
       #     plugin_tweets_limit: 1
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🗨️ Stack Overflow - Top answers from stackoverflow
@@ -596,7 +596,7 @@ jobs:
       #     plugin_stackoverflow_limit: 2
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: >-
@@ -613,7 +613,7 @@ jobs:
       #     plugin_anilist_limit: 1
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: >-
@@ -630,7 +630,7 @@ jobs:
       #     plugin_anilist_limit: 1
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🌸 Anilist watch list and reading list - Favorites characters
@@ -644,7 +644,7 @@ jobs:
       #     plugin_anilist_limit_characters: 22
       #     output_action: none
       #     delay: 120
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🎼 Music activity and suggestions - Apple Music - Random track from playlist
@@ -657,7 +657,7 @@ jobs:
       #     plugin_music_playlist: https://embed.music.apple.com/fr/playlist/usr-share/pl.u-V9D7m8Etjmjd0D
       #     plugin_music_limit: 2
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🎼 Music activity and suggestions - Spotify - Random track from playlist
@@ -669,7 +669,7 @@ jobs:
       #     plugin_music: yes
       #     plugin_music_playlist: https://open.spotify.com/embed/playlist/3nfA87oeJw4LFVcUDjRcqi
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🎼 Music activity and suggestions - Spotify - Recently listed
@@ -684,7 +684,7 @@ jobs:
       #     plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
       #     plugin_music_limit: 2
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🎼 Music activity and suggestions - Spotify - Top tracks
@@ -699,7 +699,7 @@ jobs:
       #     plugin_music_time_range: short
       #     plugin_music_top_type: tracks
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       # - name: 🎼 Music activity and suggestions - Spotify - Top artists
@@ -714,7 +714,7 @@ jobs:
       #     plugin_music_time_range: long
       #     plugin_music_top_type: artists
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
       - name: 🗼 Rss feed - News from hackernews
@@ -726,7 +726,7 @@ jobs:
           plugin_rss: yes
           plugin_rss_source: https://news.ycombinator.com/rss
           plugin_rss_limit: 4
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🗳️ Leetcode - LeetCode
@@ -737,7 +737,7 @@ jobs:
           base: ""
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 🥠 Fortune - Fortune
@@ -747,7 +747,7 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_fortune: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
       - name: 📗 Classic template - Example
@@ -757,7 +757,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           plugin_lines: yes
-          user: Jesse-0x
+          user: Chara-0x
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
 #       - name: 📘 Repository template - Example
@@ -766,7 +766,7 @@ jobs:
 #           template: repository
 #           filename: metrics/metrics.repository.svg
 #           token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
-#           user: Jesse-0x
+#           user: Chara-0x
 #           repo: metrics
 #           plugin_lines: yes
 #           plugin_followup: yes
@@ -782,6 +782,6 @@ jobs:
       #     token: ${{ secrets.METRICS_TOKEN }}
       #     base: header, metadata
       #     output_action: none
-      #     user: Jesse-0x
+      #     user: Chara-0x
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
