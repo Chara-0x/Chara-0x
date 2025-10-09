@@ -77,4 +77,3 @@ I'm just a normal student with wired ideas and always want to help other people 
 
 ###### I often have some ideas, but I can't  I can make it became true, So I'm working on a project called ***Linect***. I wish more people can make there though became true!
 
-[![Jesse's GitHub stats](https://github-readme-stats.vercel.app/api?username=jesse-0x&show_icons=true&count_private=true&bg_color=10,75c3ff,89f7fe&title_color=2c2c2c&border_radius=30&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
