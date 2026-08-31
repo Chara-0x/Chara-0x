@@ -20,7 +20,7 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Bug Blindness</div>
+                                <div class="title">“I just chose words carefully”</div>
                                 <div class="date">30 Aug 2026</div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Hy4 preview</div>
+                                <div class="title">Creepy Crawlies</div>
                                 <div class="date">29 Aug 2026</div>
                             </div>
                         </div>
@@ -38,8 +38,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">FreeCORE TrueNAS Core – Continued</div>
-                                <div class="date">30 Aug 2026</div>
+                                <div class="title">Understanding ChatGPT Work</div>
+                                <div class="date">31 Aug 2026</div>
                             </div>
                         </div>
                         <div class="field rss">
@@ -47,8 +47,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">RISC-V is now officially supported by CPython</div>
-                                <div class="date">24 Aug 2026</div>
+                                <div class="title">It takes 5 cloud services to hear my doorbell</div>
+                                <div class="date">28 Aug 2026</div>
                             </div>
                         </div>
                     </section>
