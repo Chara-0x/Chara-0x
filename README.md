@@ -7,36 +7,36 @@
 
 <table>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.base.svg" alt="metrics.base" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.projects.svg" alt="metrics.plugin.projects" /></td>
+        <td><img src="./metrics/metrics.base.svg" alt="metrics.base" /></td>
+        <td><img src="./metrics/metrics.plugin.repositories.svg" alt="metrics.plugin.repositories" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.achievements.compact.svg" alt="metrics.plugin.achievements.compact" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.lines.svg" alt="metrics.plugin.lines" /></td>
+        <td><img src="./metrics/metrics.plugin.isocalendar.svg" alt="metrics.plugin.isocalendar" /></td>
+        <td><img src="./metrics/metrics.plugin.lines.svg" alt="metrics.plugin.lines" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.people.followers.svg" alt="metrics.plugin.people.followers" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.languages.details.svg" alt="metrics.plugin.languages.details" /></td>
+        <td><img src="./metrics/metrics.plugin.people.followers.svg" alt="metrics.plugin.people.followers" /></td>
+        <td><img src="./metrics/metrics.plugin.languages.details.svg" alt="metrics.plugin.languages.details" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.isocalendar.fullyear.svg" alt="metrics.plugin.isocalendar.fullyear" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.activity.svg" alt="metrics.plugin.activity" /></td>
+        <td><img src="./metrics/metrics.plugin.isocalendar.fullyear.svg" alt="metrics.plugin.isocalendar.fullyear" /></td>
+        <td><img src="./metrics/metrics.plugin.activity.svg" alt="metrics.plugin.activity" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.stars.svg" alt="metrics.plugin.stars" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.calendar.full.svg" alt="metrics.plugin.calendar.full" /></td>
+        <td><img src="./metrics/metrics.plugin.stars.svg" alt="metrics.plugin.stars" /></td>
+        <td><img src="./metrics/metrics.plugin.calendar.full.svg" alt="metrics.plugin.calendar.full" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.repositories.pinned.svg" alt="metrics.plugin.repositories.pinned" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.traffic.svg" alt="metrics.plugin.traffic" /></td>
+        <td><img src="./metrics/metrics.plugin.repositories.pinned.svg" alt="metrics.plugin.repositories.pinned" /></td>
+        <td><img src="./metrics/metrics.plugin.traffic.svg" alt="metrics.plugin.traffic" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.followup.indepth.svg" alt="metrics.plugin.followup.indepth" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.habits.charts.svg" alt="metrics.plugin.habits.charts" /></td>
+        <td><img src="./metrics/metrics.plugin.followup.indepth.svg" alt="metrics.plugin.followup.indepth" /></td>
+        <td><img src="./metrics/metrics.plugin.habits.charts.svg" alt="metrics.plugin.habits.charts" /></td>
     </tr>
     <tr>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.habits.facts.svg" alt="metrics.plugin.habits.facts" /></td>
-        <td><img src="https://cdn.jsdelivr.net/gh/Jesse-0x/Jesse-0x/metrics/metrics.plugin.stargazers.svg" alt="metrics.plugin.stargazers" /></td>
+        <td><img src="./metrics/metrics.plugin.habits.facts.svg" alt="metrics.plugin.habits.facts" /></td>
+        <td><img src="./metrics/metrics.plugin.stargazers.svg" alt="metrics.plugin.stargazers" /></td>
 
 </table>
 
