@@ -374,33 +374,35 @@ jobs:
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
 
-      - name: 🏆 Achievements - Detailed display
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: sponsor, maintainer, octonaut
-          user: Chara-0x
-          plugins_errors_fatal: yes
-        if: ${{ success() || failure() }}
+      # Disabled: upstream Achievements queries the retired Projects Classic API (run #1174).
+      # - name: 🏆 Achievements - Detailed display
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics/metrics.plugin.achievements.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_achievements: yes
+      #     plugin_achievements_only: sponsor, maintainer, octonaut
+      #     user: Chara-0x
+      #     plugins_errors_fatal: yes
+      #   if: ${{ success() || failure() }}
 
-      - name: 🏆 Achievements - Compact display
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-          user: Chara-0x
-          plugins_errors_fatal: yes
-        if: ${{ success() || failure() }}
+      # Disabled: filtering achievements does not avoid the retired Projects Classic query.
+      # - name: 🏆 Achievements - Compact display
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics/metrics.plugin.achievements.compact.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_achievements: yes
+      #     plugin_achievements_only: >-
+      #       polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+      #       scripter, packager, explorer, infographile, manager
+      #     plugin_achievements_display: compact
+      #     plugin_achievements_threshold: X
+      #     user: Chara-0x
+      #     plugins_errors_fatal: yes
+      #   if: ${{ success() || failure() }}
 
       - name: 🎩 Notable contributions - Contributions
         uses: lowlighter/metrics@latest
@@ -475,18 +477,19 @@ jobs:
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
 
-      - name: 🗂️ GitHub projects - Project from a repository
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/metrics.plugin.projects.svg
-          token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
-          base: ""
-          plugin_projects: yes
-          plugin_projects_repositories: lowlighter/metrics/projects/1
-          plugin_projects_descriptions: yes
-          user: Chara-0x
-          plugins_errors_fatal: yes
-        if: ${{ success() || failure() }}
+      # Disabled: upstream Projects uses the retired Projects Classic API (run #1174).
+      # - name: 🗂️ GitHub projects - Project from a repository
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics/metrics.plugin.projects.svg
+      #     token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+      #     base: ""
+      #     plugin_projects: yes
+      #     plugin_projects_repositories: lowlighter/metrics/projects/1
+      #     plugin_projects_descriptions: yes
+      #     user: Chara-0x
+      #     plugins_errors_fatal: yes
+      #   if: ${{ success() || failure() }}
 
       # - name: 🙋 Introduction - Organization introduction
       #   uses: lowlighter/metrics@latest
@@ -515,19 +518,20 @@ jobs:
       #     plugins_errors_fatal: yes
       #   if: ${{ success() || failure() }}
 
-      - name: 🌇 GitHub Skyline - GitHub Skyline
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/metrics.plugin.skyline.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_skyline: yes
-          plugin_skyline_year: 2020
-          plugin_skyline_frames: 6
-          plugin_skyline_quality: 1
-          user: Chara-0x
-          plugins_errors_fatal: yes
-        if: ${{ success() || failure() }}
+      # Disabled: the default Skyline renderer timed out on all three attempts in run #1174.
+      # - name: 🌇 GitHub Skyline - GitHub Skyline
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics/metrics.plugin.skyline.svg
+      #     token: NOT_NEEDED
+      #     base: ""
+      #     plugin_skyline: yes
+      #     plugin_skyline_year: 2020
+      #     plugin_skyline_frames: 6
+      #     plugin_skyline_quality: 1
+      #     user: Chara-0x
+      #     plugins_errors_fatal: yes
+      #   if: ${{ success() || failure() }}
 
       - name: 🌇 GitHub Skyline - GitHub City
         uses: lowlighter/metrics@latest
@@ -768,17 +772,18 @@ jobs:
           plugins_errors_fatal: yes
         if: ${{ success() || failure() }}
 
-      - name: 🗳️ Leetcode - LeetCode
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/metrics.plugin.leetcode.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_leetcode: yes
-          plugin_leetcode_sections: solved, skills, recent
-          user: Chara-0x
-          plugins_errors_fatal: yes
-        if: ${{ success() || failure() }}
+      # Disabled until plugin_leetcode_user is set to a verified LeetCode username; matchedUser was null.
+      # - name: 🗳️ Leetcode - LeetCode
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics/metrics.plugin.leetcode.svg
+      #     token: NOT_NEEDED
+      #     base: ""
+      #     plugin_leetcode: yes
+      #     plugin_leetcode_sections: solved, skills, recent
+      #     user: Chara-0x
+      #     plugins_errors_fatal: yes
+      #   if: ${{ success() || failure() }}
 
       - name: 🥠 Fortune - Fortune
         uses: lowlighter/metrics@latest
