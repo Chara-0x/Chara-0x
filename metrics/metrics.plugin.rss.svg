@@ -20,7 +20,7 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Removing Next.js Got My Blog to 100 on Every Lighthouse Category</div>
+                                <div class="title">Three new discoveries in mathematics, computer science, and physics</div>
                                 <div class="date">26 Oct 2026</div>
                             </div>
                         </div>
@@ -29,8 +29,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Dolly Parton's Imagination Library</div>
-                                <div class="date">25 Oct 2026</div>
+                                <div class="title">The Exponential Time Hypothesis Is False [pdf]</div>
+                                <div class="date">26 Oct 2026</div>
                             </div>
                         </div>
                         <div class="field rss">
@@ -38,8 +38,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">F-Zero X on Nintendo 3DS</div>
-                                <div class="date">25 Oct 2026</div>
+                                <div class="title">Incremental rust builds up to 92x faster than cargo/rustc</div>
+                                <div class="date">27 Oct 2026</div>
                             </div>
                         </div>
                         <div class="field rss">
@@ -47,8 +47,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Overgrown, when plants invade your abandoned tabs</div>
-                                <div class="date">22 Oct 2026</div>
+                                <div class="title">Sebastian Raschka's from-scratch video course on building reasoning models</div>
+                                <div class="date">26 Oct 2026</div>
                             </div>
                         </div>
                     </section>
