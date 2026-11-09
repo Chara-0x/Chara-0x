@@ -20,8 +20,8 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">What I run on my $10 USD OpenStick homelab</div>
-                                <div class="date">7 Nov 2026</div>
+                                <div class="title">RIP, Harvest</div>
+                                <div class="date">9 Nov 2026</div>
                             </div>
                         </div>
                         <div class="field rss">
@@ -29,16 +29,7 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files</div>
-                                <div class="date">7 Nov 2026</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
-                                <div class="title">ZapFast: A fast, native WhatsApp client in Rust and egui</div>
+                                <div class="title">KetchUp – Open-source SketchUp alternative built with Rust and WebGPU</div>
                                 <div class="date">8 Nov 2026</div>
                             </div>
                         </div>
@@ -47,8 +38,17 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">Making any integer with four 2s (2025)</div>
-                                <div class="date">7 Nov 2026</div>
+                                <div class="title">A Critique of GPUI</div>
+                                <div class="date">9 Nov 2026</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
+                                <div class="title">Unlocking any car from X brand in most of the world</div>
+                                <div class="date">9 Nov 2026</div>
                             </div>
                         </div>
                     </section>
